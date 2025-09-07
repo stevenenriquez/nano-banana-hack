@@ -1,0 +1,17 @@
+{
+  "name": "nano-banana-hack",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "node server/dev.js",
+    "start": "node server/server.js",
+    "build": "echo 'No build step'",
+    "lint": "echo 'No linter configured'"
+  },
+  "dependencies": {
+    "@google/genai": "^0.3.0",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2"
+  }
+}
